@@ -5,14 +5,14 @@ function handleSearch(event) {
     let resultsDiv = document.getElementById("searchResults"); 
 
     let noticias = [
-        { titulo: "Notícia 1", descricao: "Primeira notícia sobre esportes." },
-        { titulo: "Notícia 2", descricao: "Segunda notícia sobre tecnologia." },
-        { titulo: "Notícia 3", descricao: "Terceira notícia sobre política." },
-        { titulo: "Notícia 4", descricao: "Quarta notícia sobre economia." },
-        { titulo: "Notícia 5", descricao: "Quinta notícia sobre entretenimento." },
-        { titulo: "Notícia 6", descricao: "Sexta notícia sobre saúde." },
-        { titulo: "Notícia 7", descricao: "Sétima notícia sobre meio ambiente." },
-        { titulo: "Notícia 8", descricao: "Oitava notícia sobre educação." },
+        { titulo: "Cientistas encontram espécie marinha rara", descricao: "Primeira notícia sobre Vida Marinha." },
+        { titulo: "Governo investe pesado em energia solar", descricao: "Segunda notícia sobre Energia Solar." },
+        { titulo: "Time local conquista campeonato regional emocionante", descricao: "Terceira notícia sobre Futebol." },
+        { titulo: "Novo smartphone dobrável revoluciona tecnologia", descricao: "Quarta notícia sobre Tecnologia." },
+        { titulo: "Festival musical atrai milhares de turistas", descricao: "Quinta notícia sobre Entretenimento." },
+        { titulo: "Café diário traz benefícios comprovados cientificamente", descricao: "Sexta notícia sobre Bem-Estar." },
+        { titulo: "Escola cria programa inovador para crianças", descricao: "Sétima notícia sobre Educação." },
+        { titulo: "Artista plástico expõe obras no museu", descricao: "Oitava notícia sobre Arte." },
     ];
 
     resultsDiv.innerHTML = "";

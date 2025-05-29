@@ -1,3 +1,6 @@
+.body{
+    background-color:lightgrey
+}
 .navbar {
     background-color: #863e3e;
     padding: 1rem;
@@ -75,7 +78,7 @@ p {
     line-height: 1.6;
     margin-top: 20px;
     padding: 0 20px;
-    color: #8B0000;
+    color: #6c757d;
 }
 
 @media (max-width: 768px) {
